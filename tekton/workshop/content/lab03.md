@@ -22,7 +22,7 @@ There are some other components for our pipeline that live inside other projects
 
 # The Flow of the Secure Software Factory
 
-You may ask, "How am I going to build a CI/CD pipeline if I don't have a tool like Jenkins that builds CI/CD pipelines?" OpenShift Pipelines is the CI/CD tool (based on the upstream Tekton project) that will execute the project. We'll be using cloud-native container-based tooling and the power of the Kubernetes container orchestrator to do execute our steps.
+You may ask, "How am I going to build a CI/CD pipeline if I don't have a tool like Jenkins that builds CI/CD pipelines?" OpenShift Pipelines is the CI/CD tool (based on the upstream Tekton project) that will execute the project. We'll be using cloud-native container-based tooling and the power of the Kubernetes container orchestrator to execute our steps.
 
 Below are the main steps of the "Deploy to Dev" pipeline:
 
